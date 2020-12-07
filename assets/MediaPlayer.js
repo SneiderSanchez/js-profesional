@@ -27,12 +27,9 @@ MediaPlayer.prototype.tooglePlay = function () {
   }
 };
 
-MediaPlayer.prototype.mute = function () {
-  this.media.muted = true;
+MediaPlayer.prototype.toogleMute = function () {
+  this.media.muted = !this.media.muted;
 };
 
-MediaPlayer.prototype.unmute = function () {
-  this.media.muted = false;
-};
 
 export default MediaPlayer;
