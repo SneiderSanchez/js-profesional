@@ -24,14 +24,14 @@ async function preCache() {
   const cache = await caches.open(version);
   console.log("hola, toy agregando vueltas");
   return cache.addAll([
-    "/",
+    /*     "/",
     "/index.html",
     "/assets/index.js",
     "/assets/MediaPlayer.js",
     "/assets/plugins/AutoPlay.js",
     "/assets/plugins/AutoPause.js",
     "/assets/index.css",
-    "/assets/BigBuckBunny.mp4",
+    "/assets/BigBuckBunny.mp4", */
   ]);
 }
 
