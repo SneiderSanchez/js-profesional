@@ -22,7 +22,6 @@ self.addEventListener("fetch", (event) => {
 
 async function preCache() {
   const cache = await caches.open(version);
-  console.log("hola, toy agregando vueltas");
   return cache.addAll([
     /*     "/",
     "/index.html",
