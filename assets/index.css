@@ -36,3 +36,47 @@ main {
 .movie {
   width: 100%;
 }
+
+.ads {
+  padding: 15px;
+  padding-right: 8px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+}
+
+.ads__link {
+  display: flex;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.ads__img {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.ads__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ads__title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+}
+.ads__body {
+  margin: 0;
+  font-size: 0.8em;
+}
